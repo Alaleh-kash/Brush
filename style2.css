@@ -1,0 +1,265 @@
+body{
+  text-align: center;
+  background-color: #EBDDD4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*NAVBAR*/
+
+  nav {
+    background-color: #393646;
+    padding: 10px;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  .navbar-menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .navbar-menu li a {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  .navbar-menu li a:hover {
+    text-decoration: underline;
+  }
+
+h2 {
+    text-align: center;
+}
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+
+#myCarousel {
+max-width: 640px;
+margin: 0 auto;
+}
+
+#myCarousel .f-carousel__slide {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .testimonial {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .quote {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    font-weight: bold;
+  }
+  
+h1{
+  text-align: center;
+}
+
+  h2{
+    text-align: center;
+    padding: 20px;
+  }
+  .f-carousel__dots{
+    background-color: #EBDDD4;
+  }
+
+
+  .scroll-container {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .scroll-content {
+    position: relative;
+    opacity: 0;
+    transform: translateY(100px);
+    animation: scrollAnimation 1s forwards;
+  }
+
+    /* Responsive columns */
+ @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+  /*FOOTER*/
+
+  footer {
+    background-color: #393646;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    background-color: #393646;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 10px;
+    color: #f1f1f1;
+    font-size: medium;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 20px;
+    font-size: small;
+    list-style-type: none;
+    font-weight: lighter;
+  }
+  
+  .footer-column ul a {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .social-icons li {
+    margin: 0 10px;
+  }
+  .social-icons a {
+    color: #f1f1f1;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    transition: background-color 0.3s ease;
+  }
+  .Copyright {
+    font-size: medium;
+    font-weight: lighter;
+  }
+  
+  .card {
+    text-align: justify;
+    margin-right: 70px;
+  }
+
+
+
+
+
+  section.first {
+    height: 400px;
+    background-color: gray;
+    border: 10px solid black;
+  }
+  .element {
+    background-color: gold;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .elementy {
+    position: absolute;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .magnifier-demo {
+    width: 600px;
+  }
+  
+  .magnifier-demo__image-wrapper {
+    width: 400px;
+    position: relative;
+    display: inline-block;
+  }
+    
+  
+  .magnifier-demo img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+   
+  }
+  
+  .magnifier-demo__zoomer {
+    display: inline-block;
+    position: absolute;
+    left: 245px;
+    top: 102px;
+    background: rgba(255,255,255,0.4);
+    cursor: move;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+  }
+  
+  .magnifier-demo__zoom-preview {
+    
+    background: yellow;
+    width: 200px;
+    float: right;
+    position: relative;
+    height: 100%;
+    border-left: 3px solid white;
+    box-sizing: border-box;
+  }
